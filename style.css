@@ -1,12 +1,11 @@
-.main{
+body{
 
   padding-left: 48px;
   padding-right: 48px;
+  background-color: #080F17;
+  font-size: 16px;
   
 
-}
-body{
-  font-family: Outfit;
 }
 
 * {
@@ -209,14 +208,14 @@ img{
 }
 
 .scdmain td {
-  text-align: left; /* Align content to the left */
-  padding-left: 30px; /* Add padding inside cells */
+  text-align: left; 
+  padding-left: 30px; 
 }
 
 .scdmain td div {
   margin-bottom: 10px;
-  color: white; /* Optional text color */
-  font-size: 18px; /* Adjust font size */
+  color: white; 
+  font-size: 18px; 
 }
 .testimonial-section {
   color: white;
@@ -239,12 +238,11 @@ img{
 
 }
 .testimonial-box {
-  min-width: 100%;
-  max-width: 100%;
+ 
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  padding: 20px;
+ 
   text-align: left;
 
   transition: transform 0.3s ease-in-out;
@@ -280,59 +278,109 @@ img{
   color: #333;
 }
 
+.testimonial-box {
+  min-width: auto;
+  max-width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.testimonial-content {
+  padding-left: 1rem;
+}
 
 @media (min-width: 768px) {
   .testimonial-box {
     min-width: 28rem;
-    max-width: 28rem;/
+    max-width: 28rem;
     padding: 30px;
   }
 
   .testimonial-content {
     padding-left: 2rem;
   }
-
 }
 
 
+@media (min-width: 1024px) {
+  .testimonial-box {
+    min-width: 30rem;
+    max-width: 30rem;
+    padding: 35px;
+  }
+
+  .testimonial-content {
+    padding-left: 3rem;
+  }
+}
 
 
+@media (min-width: 1200px) {
+  .testimonial-box {
+    min-width: 32rem;
+    max-width: 32rem;
+    padding: 40px;
+  }
+
+  .testimonial-content {
+    padding-left: 4rem;
+  }
+}
 
 
+@media (min-width: 480px) {
 
+  .testimonial-box {
+    min-width: 15rem;
+    max-width: 15rem;
+    padding: 25px;
+  }
 
-
+  .testimonial-content {
+    padding-left: 1rem;
+  }
+}
 
 
 
  .footer {
+  font-family: Outfit;
   text-align: center;
   margin-top: 30px;
   padding: 20px 0;
-  background-color: #222;
+  background-color: #080F17;
+
 }
 
 .footer .subscribe-form {
+  font-family: Outfit;
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
 }
 
 .footer .subscribe-form input {
-  padding: 10px;
-  margin-right: 5px;
-  border: none;
-  border-radius: 4px;
+  padding: 12px;
+  border-radius: 7px; /* Smooth corners */
+  border-color: #585858;
+  background-color: #342f2f; 
+  font-size: 16px; 
+  width: 300px;
+  box-sizing: border-box;
+  color: #585858;
+  
 }
 
 .footer .subscribe-form button {
-  padding: 10px;
-  border: none;
-  border-radius: 4px;
-  background-color: #444;
-  color: #fff;
+  padding: 12px 20px; 
+  border-radius: 7px; 
+  background-color: #3dd560; 
+  font-size: 16px; 
+  cursor: pointer; 
+  margin-right: 10px;
+  
+ 
 }
-
 .footer .socials a {
   margin: 0 10px;
   color: #fff;
